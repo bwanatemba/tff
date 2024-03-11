@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Full List of Members</title>
+</head>
+<body>
+    <h1>Authorized Members and Their Sub Members</h1>
+    {% for member, sub_members in members_with_subs.items() %}
+        <h2>{{ member.full_name }} ({{ member.constituency }} - {{ member.ward }})</h2>
+        <ul>
+            {% for sub_member in sub_members %}
+                <li>{{ sub_member.full_name }} - {{ sub_member.ward_position }} - {{ sub_member.phone_number }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>

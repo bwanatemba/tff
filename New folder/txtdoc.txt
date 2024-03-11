@@ -1,0 +1,123 @@
+<div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Select</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select your Constituency</option>
+                      <option value="Dagoretti North">Dagoretti North</option>
+                      <option value="Dagoretti South">Dagoretti South</option>
+                      <option value="Lang'ata">Lang'ata</option>
+                      <option value="Kibra">Kibra</option>
+                      <option value="Kasarani">Kasarani</option>
+                      <option value="Roysambu">Roysambu</option>
+                      <option value="Ruaraka">Ruaraka</option>
+                      <option value="Embakasi Central">Embakasi Central</option>
+                      <option value="Embakasi East">Embakasi East</option>
+                      <option value="Embakasi North">Embakasi North</option>
+                      <option value="Embakasi South">Embakasi South</option>
+                      <option value="Embakasi West">Embakasi West</option>
+                      <option value="Kamukunji">Kamukunji</option>
+                      <option value="Makadara">Makadara</option>
+                      <option value="Mathare">Mathare</option>
+                      <option value="Starehe">Starehe</option>
+                      <option value="Westlands">Westlands</option>
+                    </select>
+                  </div>
+                </div>
+
+
+
+                            wards
+
+<div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Select</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select your Ward</option>
+                      <option value="Airbase">Airbase</option>
+            <option value="Baba Dogo">Baba Dogo</option>
+            <option value="Bahati">Bahati</option>
+            <option value="California">California</option>
+            <option value="Chokaa">Chokaa</option>
+            <option value="Clay City">Clay City</option>
+            <option value="Dandora Area 1">Dandora Area 1</option>
+            <option value="Dandora Area 2">Dandora Area 2</option>
+            <option value="Dandora Area 3">Dandora Area 3</option>
+            <option value="Dandora Area 4">Dandora Area 4</option>
+            <option value="Eastleigh North">Eastleigh North</option>
+            <option value="Eastleigh South">Eastleigh South</option>
+            <option value="Embakasi">Embakasi</option>
+            <option value="Gatina">Gatina</option>
+            <option value="Githurai">Githurai</option>
+            <option value="Hamza">Hamza</option>
+            <option value="Harambee">Harambee</option>
+            <option value="Huruma">Huruma</option>
+            <option value="Imara Daima">Imara Daima</option>
+            <option value="Kabiro">Kabiro</option>
+            <option value="Kahawa">Kahawa</option>
+            <option value="Kahawa West">Kahawa West</option>
+            <option value="Kamulu">Kamulu</option>
+            <option value="Kangemi">Kangemi</option>
+            <option value="Karen">Karen</option>
+            <option value="Kariobangi North">Kariobangi North</option>
+            <option value="Kariobangi South">Kariobangi South</option>
+            <option value="Karura">Karura</option>
+            <option value="Kawangware">Kawangware</option>
+            <option value="Kayole Central">Kayole Central</option>
+            <option value="Kayole North">Kayole North</option>
+            <option value="Kiamaiko">Kiamaiko</option>
+            <option value="Kileleshwa">Kileleshwa</option>
+            <option value="Kilimani">Kilimani</option>
+            <option value="Kitisuru">Kitisuru</option>
+            <option value="Komarock">Komarock</option>
+            <option value="Korogocho">Korogocho</option>
+            <option value="Kwa Njenga">Kwa Njenga</option>
+            <option value="Kwa Reuben">Kwa Reuben</option>
+            <option value="Kware">Kware</option>
+            <option value="Laini Saba">Laini Saba</option>
+            <option value="Landimawe">Landimawe</option>
+            <option value="Lindi">Lindi</option>
+            <option value="Lower Savanna">Lower Savanna</option>
+            <option value="Lucky Summer">Lucky Summer</option>
+            <option value="Mabatini">Mabatini</option>
+            <option value="Makina">Makina</option>
+            <option value="Makongeni">Makongeni</option>
+            <option value="Maringo">Maringo</option>
+            <option value="Mathare North">Mathare North</option>
+            <option value="Matopeni">Matopeni</option>
+            <option value="Mihang'o">Mihang'o</option>
+            <option value="Mlango Kubwa">Mlango Kubwa</option>
+            <option value="Mountain View">Mountain View</option>
+            <option value="Mowlem">Mowlem</option>
+            <option value="Muti-ini">Muti-ini</option>
+            <option value="Mwiki">Mwiki</option>
+            <option value="Nairobi Central">Nairobi Central</option>
+            <option value="Nairobi South">Nairobi South</option>
+            <option value="Nairobi West">Nairobi West</option>
+            <option value="Ngando">Ngando</option>
+            <option value="Ngara">Ngara</option>
+            <option value="Ngei">Ngei</option>
+            <option value="Njiru">Njiru</option>
+            <option value="Nyayo Highrise">Nyayo Highrise</option>
+            <option value="Pangani">Pangani</option>
+            <option value="Parklands">Parklands</option>
+            <option value="Pipeline">Pipeline</option>
+            <option value="Pumwani">Pumwani</option>
+            <option value="Riruta">Riruta</option>
+            <option value="Roysambu">Roysambu</option>
+            <option value="Ruai">Ruai</option>
+            <option value="Sarang'ombe">Sarang'ombe</option>
+            <option value="South C">South C</option>
+            <option value="Umoja 1">Umoja 1</option>
+            <option value="Umoja 2">Umoja 2</option>
+            <option value="Upper Savanna">Upper Savanna</option>
+            <option value="Utalii">Utalii</option>
+            <option value="Utawala">Utawala</option>
+            <option value="Uthiru">Uthiru</option>
+            <option value="Viwandani">Viwandani</option>
+            <option value="Waithaka">Waithaka</option>
+            <option value="Woodley">Woodley</option>
+            <option value="Zimmerman">Zimmerman</option>
+            <option value="Ziwani">Ziwani</option>
+                    </select>
+                  </div>
+                </div>

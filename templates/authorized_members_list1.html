@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Authorized Members List</title>
+</head>
+<body>
+    <h1>Authorized Members</h1>
+    <ul>
+        {% for member in authorized_members %}
+            <li>{{ member.full_name }} - {{ member.phone_number }} - {{ member.constituency }} - {{ member.ward }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

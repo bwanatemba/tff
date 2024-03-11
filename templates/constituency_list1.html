@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Constituency List</h1>
+{% for constituency, members in members_by_constituency.items() %}
+    <h2>{{ constituency }}</h2>
+    <ul>
+    {% for member in members %}
+        <li>{{ member.full_name }} - {{ member.phone_number }}</li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+{% endblock %}

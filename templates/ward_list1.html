@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Ward List</h1>
+{% for ward, members in members_by_ward.items() %}
+    <h2>{{ ward }}</h2>
+    <ul>
+    {% for member in members %}
+        <li>{{ member.full_name }} - {{ member.phone_number }}</li>
+        <ul>
+            {% for sub_member in member.sub_members %}
+                <li>{{ sub_member.full_name }} - {{ sub_member.phone_number }} - Position: {{ sub_member.ward_position }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+    </ul>
+{% endfor %}
+{% endblock %}
